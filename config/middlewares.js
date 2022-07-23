@@ -7,7 +7,7 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          upgradeInsecureRequests: true,
+          upgradeInsecureRequests: null,
         },
       },
     },
